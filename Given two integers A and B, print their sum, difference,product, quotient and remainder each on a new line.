@@ -1,0 +1,14 @@
+A, B = map(int, input().split())
+
+print(A + B)
+print(A - B)
+print(A * B)
+
+q = abs(A) // abs(B)
+if (A < 0) != (B < 0):
+    q = -q
+
+r = A - q * B
+
+print(q)
+print(r)

@@ -1,0 +1,17 @@
+a = int(input())
+l = int(input())
+w = int(input())
+r = int(input())
+s1 = int(input())
+s2 = int(input())
+s3 = int(input())
+
+squ = 4 * a
+rec = 2 * (l + w)
+cir = 2 * 3.14 * r
+tri = s1 + s2 + s3
+
+print(squ)
+print(rec)
+print("%.2f"%cir)
+print(tri)

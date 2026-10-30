@@ -1,0 +1,16 @@
+a = float(input())
+l = float(input())
+b =float(input())
+r = float(input())
+B = float(input())
+h = float(input())
+
+sq_area = a * a
+rec_area = l * b
+cir_area = 3.14 * r ** 2
+tri_area = (1/2) * B * h
+
+print(f'Area of Square={round(sq_area)}')
+print(f'Area of Rectangle={round(rec_area)}')
+print(f'Area of Circle={cir_area:.2f}')
+print(f'Area of Triangle={round(tri_area)}')

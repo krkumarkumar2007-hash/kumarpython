@@ -1,0 +1,13 @@
+name = input()
+sub1 = float(input())
+sub2 = float(input())
+sub3 = float(input())
+sub4 = float(input())
+sub5 = float(input())
+
+total =sub1 + sub2 +sub3 + sub4 + sub5
+avg = (total / 500) * 100
+
+print(f'Student Name: {name}')
+print(f'Total Marks: {round(total)}')
+print(f'Average Marks: {avg:.2f}')

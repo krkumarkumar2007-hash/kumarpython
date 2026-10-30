@@ -1,0 +1,12 @@
+seat = int(input())
+pos = seat % 8
+if pos == 1 or pos == 4:
+    print("LB")
+elif pos == 2 or pos == 5:
+    print("MB")
+elif pos == 3 or pos == 6:
+    print("UB")
+elif pos == 7:
+    print("SL")
+else:
+    print("SU")

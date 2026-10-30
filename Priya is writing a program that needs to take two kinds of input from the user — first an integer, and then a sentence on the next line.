@@ -1,0 +1,5 @@
+inte = int(input())
+char = input()
+
+print(int(inte))
+print(char)

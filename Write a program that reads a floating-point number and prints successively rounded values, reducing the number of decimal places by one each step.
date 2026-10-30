@@ -1,0 +1,10 @@
+import struct
+d1 = float(input())
+d1 = struct.unpack('f',struct.pack('f',d1))[0]
+
+print(f'{d1:.5f}')
+print(f'{d1:.4f}')
+print(f'{d1:.3f}')
+print(f'{d1:.2f}')
+print(f'{d1:.1f}')
+print(round(d1))
